@@ -5,6 +5,7 @@
     android:id="@+id/text_header"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ag"
     tools:context=".SecondActivity">
 
     <TextView
@@ -51,6 +52,7 @@
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="@string/editText_second"
+        android:textColorHint="@color/colorPrimaryDark"
         android:inputType="textLongMessage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_second"
